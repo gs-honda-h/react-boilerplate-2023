@@ -6,7 +6,7 @@ import { MainLayout } from '@/components/Layout';
 import { lazyImport } from '@/lib/lazyImport';
 
 const { CommentsRoutes } = lazyImport(
-  () => import('@/features/comments/routes/CommentsRoutes'),
+  () => import('@/features/comments/routes/'),
   'CommentsRoutes'
 );
 

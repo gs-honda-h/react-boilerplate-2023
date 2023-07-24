@@ -1,9 +1,26 @@
+import { Card } from '@/components/Elements';
+
+import { Comment } from './Comment';
+
 export const Comments = () => {
+  const comments = [
+    { id: 1, body: 'test' },
+    { id: 2, body: 'test2' },
+    { id: 3, body: 'test3' },
+    { id: 4, body: 'test4' },
+  ];
   return (
-    <div>
-      <div className="flex justify-between items-center mb-4">
-        <h3 className="text-1xl font-bold">Comments:</h3>
+    <Card>
+      <div>
+        <div className="mb-4">
+          <h3 className="text-1xl font-bold">Comments:</h3>
+          <div>
+            {comments.map((comment) => (
+              <Comment key={comment.id}>{comment.body}</Comment>
+            ))}
+          </div>
+        </div>
       </div>
-    </div>
+    </Card>
   );
 };

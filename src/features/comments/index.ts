@@ -1,1 +1,1 @@
-export * from './routes/CommentsRoutes';
+export * from './routes';
