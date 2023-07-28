@@ -45,6 +45,7 @@ module.exports = {
         'plugin:prettier/recommended',
         'plugin:storybook/recommended',
         'plugin:tailwindcss/recommended',
+        'plugin:@tanstack/eslint-plugin-query/recommended',
       ],
       rules: {
         'react-refresh/only-export-components': [
