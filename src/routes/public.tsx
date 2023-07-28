@@ -16,7 +16,7 @@ const PublicOutlet = () => {
     <MainLayout>
       <Suspense
         fallback={
-          <div className="h-full w-full flex items-center justify-center">
+          <div className="flex h-full w-full items-center justify-center">
             <Spinner size="xl" />
           </div>
         }

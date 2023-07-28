@@ -3,5 +3,5 @@ type CardProps = {
 };
 
 export const Card = ({ children }: CardProps) => {
-  return <div className="mx-4 my-4 p-6 border border-gray-200 rounded-lg shadow">{children}</div>;
+  return <div className="m-4 rounded-lg border border-gray-200 p-6 shadow">{children}</div>;
 };

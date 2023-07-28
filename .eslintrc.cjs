@@ -44,6 +44,7 @@ module.exports = {
         'plugin:jsx-a11y/recommended',
         'plugin:prettier/recommended',
         'plugin:storybook/recommended',
+        'plugin:tailwindcss/recommended',
       ],
       rules: {
         'react-refresh/only-export-components': [

@@ -9,9 +9,9 @@ type MainLayoutProps = {
 
 export const MainLayout = ({ children }: MainLayoutProps) => {
   return (
-    <div className="flex flex-col w-screen h-screen">
+    <div className="flex h-screen w-screen flex-col">
       <Header />
-      <div className="grow flex flex-row">
+      <div className="flex grow flex-row">
         <nav className="w-72 overflow-y-scroll">
           <Sidebar />
         </nav>
